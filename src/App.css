@@ -686,6 +686,10 @@ body {
         --fs-lg: 42px !important;
     }
 
+    .mw_150 {
+        max-width: 150px;
+    }
+
     .py_header {
         padding-top: 40px;
     }
@@ -741,9 +745,6 @@ body {
 }
 
 @media (min-width:768px) {
-    .mw_150 {
-        max-width: 150px;
-    }
 
     .py_process {
         padding-top: 100px;
