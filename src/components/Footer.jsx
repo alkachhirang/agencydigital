@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <>
             <div className=" bg-black">
-                <Container className="custom_container">
+                <Container className="">
                     <div className=" d-flex flex-xl-row flex-column justify-content-between align-items-center pb-4 pt_footer">
                         <div className=" pb-4 pb-xl-0">
                             <a href="">

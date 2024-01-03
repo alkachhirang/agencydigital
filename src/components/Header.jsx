@@ -54,9 +54,9 @@ const Header = () => {
         </nav>
         <Container id='Home' className='py_header'>
           <div className='d-flex justify-content-center align-items-center flex-column'>
-            <h1 className='ff_dm text-white text-capitalize fs_68 fw-medium lh_120 m-0 pb-2 text-center '>A Digital Product Design Agency</h1>
-            <p className='ff_dm text-white fw-normal fs_20 lh_170 opacity_8 m-0 pb-md-3 text-center'>We are Creative and Professional Digital Agency</p>
-            <div className='cursor_pointer pt-4'>
+            <h1 className='ff_dm text-white text-capitalize fs_68 fw-medium lh_120 m-0 pb-2 text-center' data-aos="fade-down">A Digital Product Design Agency</h1>
+            <p className='ff_dm text-white fw-normal fs_20 lh_170 opacity_8 m-0 pb-md-3 text-center' data-aos="fade-down">We are Creative and Professional Digital Agency</p>
+            <div className='cursor_pointer pt-4' data-aos="fade-down">
               <a href='' className='get_btn ff_dm fs_14 fw-bold text-nowrap'>Get started</a>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className='timebox_bg_img position-absolute'>
+            <div className='timebox_bg_img position-absolute' data-aos="fade-down-right">
               <div className='time_box'>
                 <p className='ff_nunito mb-0 fw-semibold fs_14 clr_blue_700 m-0 pb-md-2 pb-1'>Total time</p>
                 <div className='d-sm-flex align-items-center gap-md-3 gap-2'>
@@ -96,7 +96,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className='research_box position-absolute d-none d-sm-block'>
+            <div className='research_box position-absolute d-none d-sm-block'data-aos="fade-up">
               <img src={Research} alt="Research" className='border_radius_9 mw_210 mw_150 mw_110' />
               <p className='ff_dm fw-medium fs_12 clr_blue_700 m-0 pt-1 pt-md-2'>UX Research</p>
               <p className='ff_dm fw-normal fs_9 text_lightgrey m-0 pb-1 pb-lg-2 pt-lg-1'>Project January  | by Michael Miles</p>
@@ -119,7 +119,7 @@ const Header = () => {
                 <Like />
               </div>
             </div>
-            <div className='position-absolute notification_img d-none d-md-block'>
+            <div className='position-absolute notification_img d-none d-md-block' data-aos="fade-down-left">
               <img src={Notification} alt="Notification" className='mw_277 mw_230 mw_140' />
             </div>
 
