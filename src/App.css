@@ -690,6 +690,11 @@ body {
         padding-top: 40px;
     }
 
+    .my_help {
+        margin-top: 250px;
+        margin-bottom: 100px;
+    }
+
     .research_box {
         border-radius: 9.791px;
         background: #FFF;
@@ -738,11 +743,6 @@ body {
 @media (min-width:768px) {
     .mw_150 {
         max-width: 150px;
-    }
-
-    .my_help {
-        margin-top: 250px;
-        margin-bottom: 100px;
     }
 
     .py_process {
