@@ -307,9 +307,11 @@ body {
 .process_line{
     content: "";
     position: absolute;
-    width: 1px;
+    border-radius: 1;
+    border-style: dashed;
+    border-color: #ffffff ;
+    border-width: 2px;
     height: 50%;
-    border: 2px dotted #ffffff;
     left: 49%;
     top: 23%;
 }
