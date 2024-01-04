@@ -304,6 +304,15 @@ body {
 .text_lightblack {
     color: #595E64;
 }
+.process_line{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    border: 2px dotted #ffffff;
+    left: 49%;
+    top: 23%;
+}
 
 /*---------------------work------------- */
 .work_bg_img {

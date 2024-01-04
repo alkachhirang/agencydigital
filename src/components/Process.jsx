@@ -8,7 +8,8 @@ import Result from '../assets/images/png/result-img.png';
 
 const Process = () => {
     return (
-        <div id='Ourprocess' className='py_process process_bg_img'>
+        <div id='Ourprocess' className='py_process process_bg_img position-relative'>
+            <div className='process_line'></div>
             <Container>
                 <div className='d-flex justify-content-center align-items-center flex-column pb-4'>
                     <h2 className='ff_dm fw-bold fs_12 text-uppercase text-white how_work text-center m-0 pb-md-3 pb-2' data-aos="fade-down">how it works</h2>
