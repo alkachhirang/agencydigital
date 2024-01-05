@@ -222,6 +222,9 @@ const LeadingBrands = () => {
                             </div>
                         </Slider>
                     </div>
+                    <div className="d-flex justify-content-center align-items-center pt-5">
+                        <p className="ff_dm text-center text_black mw_381 lh_150 fw-normal fs_16 m-0">You're going to be in good company. We work with world's leading brands.</p>
+                    </div>
                 </Container>
             </div>
         </>

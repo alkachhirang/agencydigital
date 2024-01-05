@@ -37,6 +37,7 @@ const Header = () => {
                 <li className='position-relative'><a href='#Ourprocess' onClick={() => setshow(!show)} className='text-white fs_16 fw-medium ff_dm nav_link'>Our process</a></li>
                 <li className='position-relative'><a href='#Ourworks' onClick={() => setshow(!show)} className='text-white fs_16 fw-medium ff_dm text-nowrap nav_link'>Our works</a></li>
                 <li className='position-relative'><a href='#Testimonials' onClick={() => setshow(!show)} className='text-white fs_16 fw-medium ff_dm nav_link'>Testimonials</a></li>
+                <li className='position-relative'><a href='#Startproject' onClick={() => setshow(!show)} className='text-white fs_16 fw-medium ff_dm nav_link'>Start a project</a></li>
                 <li className='d-xl-none d-block z-1 cursor_pointer mt-3'>
                   <a href='' className='get_btn ff_dm fs_14 fw-bold text-nowrap'>Get started</a>
                 </li>

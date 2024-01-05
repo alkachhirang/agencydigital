@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Business from '../assets/images/png/business-audit-img.png';
 import { Businessaudit, DataSvg, ResultsSvg } from './Iconimg';
-import { Datasvg } from './Iconimg';
 import Datatracking from '../assets/images/png/data-tracking.png';
 import Result from '../assets/images/png/result-img.png';
 
